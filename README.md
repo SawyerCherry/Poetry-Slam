@@ -1,5 +1,7 @@
 # Poetry-Slam
 
+Sawyer A. Cherry
+
 I have chosen a poem from robert Frost, Birches.
 I start off by getting each line in a list in the get file lines.
 then I get those lines printed backwards, not by character, but by line.
