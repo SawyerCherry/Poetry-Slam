@@ -26,14 +26,15 @@ def lines_printed_random(lines_list):
 def lines_printed_custom(lines_list):
     lines_length = len(lines_list)
 
-    for i in range(lines_length):
+    for i in range(len(lines_list)):
     # Because line 5 is on index 4, we check modulus of 4
-        if i % 4 == 0:
-            print(lines_length)
+        if i % 5 == 0:
+            print(lines_list[i])
+  
 
 
-
+lines_list = get_file_lines('poem.txt')
 poem_lines = get_file_lines('poem.txt')
-lines_printed_custom(poem_lines)
+lines_printed_custom(lines_list)
 #lines_printed_random(poem_lines)
 
